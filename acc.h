@@ -1,7 +1,12 @@
+/*Description : This is the header file for the acc.c file that uses the 
+Wiring Pi library to access teh accleromter's hardware registers
+
+Authors: Smitha Sunil Kamat, Jay Khandhar
+*/
+
 #ifndef _ACC_H_
 #define _ACC_H_
 
-//#include <stdio.h>
 #include <wiringPi.h>
 #include <wiringPiI2C.h>
 
